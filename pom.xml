@@ -49,41 +49,6 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>org.wso2.carbon</groupId>
-            <artifactId>javax.cache.wso2</artifactId>
-            <scope>compile</scope>
-            <version>${javax.cache.wso2}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.wso2.carbon</groupId>
-            <artifactId>org.wso2.carbon.core</artifactId>
-            <version>${org.wso2.carbon.core}</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.wso2.carbon</groupId>
-            <artifactId>org.wso2.carbon.utils</artifactId>
-            <version>${org.wso2.carbon.core}</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.wso2.carbon</groupId>
-            <artifactId>org.wso2.carbon.user.core</artifactId>
-            <version>${org.wso2.carbon.core}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.wso2.carbon</groupId>
-            <artifactId>org.wso2.carbon.governance.api</artifactId>
-            <version>4.2.1</version>
-            <exclusions>
-                <exclusion>
-                    <!-- declare the exclusion here -->
-                    <groupId>org.hibernate</groupId>
-                    <artifactId>hibernate-entitymanager</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
             <groupId>org.wso2.carbon.apimgt</groupId>
             <artifactId>org.wso2.carbon.apimgt.gateway</artifactId>
             <version>${org.wso2.carbon.apimgt.impl}</version>
@@ -167,8 +132,6 @@
             </releases>
         </repository>
     </repositories>
-
-
     <build>
         <plugins>
             <plugin>
@@ -199,8 +162,6 @@
                             org.wso2.carbon.custom.logging.*,
                         </Export-Package>
                         <Import-Package>
-
-
                             org.apache.commons.logging,
                             org.apache.synapse,
                             org.apache.synapse.config,
@@ -209,10 +170,7 @@
                             org.apache.synapse.core.axis2,
                             org.apache.synapse.mediators.base,
                             org.apache.axis2.transport.base,
-                            org.wso2.carbon.core,
-                            org.wso2.carbon.registry.core.service; version=1.0.1,
                             org.wso2.carbon.apimgt.impl.*,
-                            javax.xml.soap; version=1.0.0,
                             *;resolution:=optional
                         </Import-Package>
                     </instructions>
