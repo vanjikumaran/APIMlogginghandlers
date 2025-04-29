@@ -117,7 +117,7 @@
     <org.wso2.carbon.user.mgt.stub>5.2.0</org.wso2.carbon.user.mgt.stub>
     <org.wso2.carbon.identity.oauth.version>5.1.1</org.wso2.carbon.identity.oauth.version>
     <org.wso2.carbon.apimgt.impl>6.0.3</org.wso2.carbon.apimgt.impl>
-    <org.wso2.carbon.apimgt.hostobjects>6.0.3</org.wso2.carbon.apimgt.hostobjects>
+    <org.wso2.carbon.apimgt.hostobjects>6.7.129</org.wso2.carbon.apimgt.hostobjects>
     <org.wso2.carbon.apimgt.api>6.0.3</org.wso2.carbon.apimgt.api>
     <org.wso2.carbon.apimgt.gateway>6.0.3</org.wso2.carbon.apimgt.gateway>
 </properties>
