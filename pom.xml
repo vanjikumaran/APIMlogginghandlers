@@ -108,7 +108,7 @@
     </dependencies>
 <properties>
     <axis2.version>1.6.1-wso2v19</axis2.version>
-    <org.wso2.carbon>4.4.6</org.wso2.carbon>
+    <org.wso2.carbon>4.4.40</org.wso2.carbon>
     <org.wso2.carbon.user.core>4.4.6</org.wso2.carbon.user.core>
     <org.wso2.carbon.core>4.4.6</org.wso2.carbon.core>
     <javax.cache.wso2>4.4.6</javax.cache.wso2>
